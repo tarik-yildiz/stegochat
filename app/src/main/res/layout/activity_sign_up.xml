@@ -26,7 +26,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayoutName"
+            android:id="@+id/constraintLayoutNameRegister"
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_marginTop="10dp"
@@ -37,7 +37,7 @@
             tools:ignore="MissingConstraints">
 
             <EditText
-                android:id="@+id/editTextName"
+                android:id="@+id/editTextNameRegister"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
@@ -56,11 +56,11 @@
             android:background="@drawable/background_white_stroke_radius"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutName"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutNameRegister"
             tools:ignore="MissingConstraints">
 
             <EditText
-                android:id="@+id/editTextUserName"
+                android:id="@+id/editTextUserNameRegister"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
@@ -74,7 +74,7 @@
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayoutPassword"
+            android:id="@+id/constraintLayoutPasswordRegister"
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_marginTop="10dp"
@@ -86,7 +86,7 @@
             tools:ignore="MissingConstraints">
 
             <EditText
-                android:id="@+id/editTextPasswordLogin"
+                android:id="@+id/editTextPasswordRegister"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
@@ -99,7 +99,7 @@
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayoutSignUp"
+            android:id="@+id/constraintLayoutSignUpRegister"
 
             android:layout_width="150dp"
             android:layout_height="50dp"
@@ -108,7 +108,7 @@
             android:clickable="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutPassword">
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutPasswordRegister">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -127,7 +127,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayoutSignIn"
+            android:id="@+id/constraintLayoutSignInRegister"
 
             android:layout_width="150dp"
             android:layout_height="50dp"
@@ -136,7 +136,7 @@
             android:clickable="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSignUp">
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSignUpRegister">
 
             <TextView
                 android:layout_width="wrap_content"
