@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:background="#9000cccc"
+        android:background="@drawable/background_white_grey_gradient"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
@@ -18,10 +18,10 @@
 
         <ImageView
             android:id="@+id/imageViewLogo"
-            android:layout_width="350dp"
-            android:layout_height="200dp"
+            android:layout_width="484px"
+            android:layout_height="512px"
             android:layout_margin="99dp"
-            android:background="#4267B2"
+            android:background="@drawable/myicon"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -31,7 +31,7 @@
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_marginTop="10dp"
-            android:background="#904267B2"
+            android:background="@drawable/background_white_stroke_radius"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
@@ -56,7 +56,8 @@
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_marginTop="10dp"
-            android:background="#904267B2"
+            android:background="@drawable/background_white_stroke_radius"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayoutUserName"
@@ -81,7 +82,7 @@
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
-            android:background="#90100090"
+            android:background="@drawable/button_background_green"
             android:clickable="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -107,7 +108,7 @@
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        android:background="#90100090"
+        android:background="@drawable/button_background_green"
         android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
