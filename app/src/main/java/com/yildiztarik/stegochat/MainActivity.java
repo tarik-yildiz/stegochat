@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initComponents();
+        setButtons();
     }
 
     private void initComponents(){
@@ -31,6 +32,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent signInIntent=new Intent(MainActivity.this, ShowChatsActivity.class);
                 startActivity(signInIntent);
+            }
+        });
+        constraintLayoutSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent signUpIntent= new Intent(MainActivity.this, SignUpActivity.class);
+                startActivity(signUpIntent);
             }
         });
     }
