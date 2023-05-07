@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671357348761",
+    "project_id": "stegoochat",
+    "storage_bucket": "stegoochat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671357348761:android:22db76a81506b82a80c108",
+        "android_client_info": {
+          "package_name": "com.yildiztarik.stegochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671357348761-g7llvkhbnj0jsacfe819j624i18q6h21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZfhJj6lJkU5oE0milohnscWjSl3TqDMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671357348761-g7llvkhbnj0jsacfe819j624i18q6h21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
