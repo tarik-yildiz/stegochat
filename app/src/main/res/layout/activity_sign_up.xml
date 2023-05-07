@@ -25,8 +25,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayoutNameRegister"
+            android:id="@+id/constraintLayoutUserName"
             android:layout_width="300dp"
             android:layout_height="55dp"
             android:layout_marginTop="10dp"
@@ -37,36 +38,13 @@
             tools:ignore="MissingConstraints">
 
             <EditText
-                android:id="@+id/editTextNameRegister"
+                android:id="@+id/editTextMailRegister"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
-                android:digits="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:digits="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
                 android:gravity="center"
-                android:hint="YOUR NAME(OPTIONAL)"
-                android:inputType="text"
-                android:textColorHint="#000000" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayoutUserName"
-            android:layout_width="300dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/background_white_stroke_radius"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutNameRegister"
-            tools:ignore="MissingConstraints">
-
-            <EditText
-                android:id="@+id/editTextUserNameRegister"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@null"
-                android:digits="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                android:gravity="center"
-                android:hint="USER NAME"
+                android:hint="MAIL ADDRESS"
                 android:inputType="text"
                 android:textColorHint="#000000" />
 

@@ -1,34 +1,56 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "849777838123",
     "firebase_url": "https://stegochat-74982-default-rtdb.europe-west1.firebasedatabase.app",
     "project_id": "stegochat-74982",
     "storage_bucket": "stegochat-74982.appspot.com"
+=======
+    "project_number": "671357348761",
+    "project_id": "stegoochat",
+    "storage_bucket": "stegoochat.appspot.com"
+>>>>>>> firebase_auth
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:849777838123:android:574d821959f49a023c826e",
+=======
+        "mobilesdk_app_id": "1:671357348761:android:22db76a81506b82a80c108",
+>>>>>>> firebase_auth
         "android_client_info": {
           "package_name": "com.yildiztarik.stegochat"
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
           "client_id": "849777838123-f2abmqa1qk9210pamsmnntso7tourf1b.apps.googleusercontent.com",
+=======
+          "client_id": "671357348761-g7llvkhbnj0jsacfe819j624i18q6h21.apps.googleusercontent.com",
+>>>>>>> firebase_auth
           "client_type": 3
         }
       ],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyBY5OV761bzNbloOm7IjyF8YSf2qunqMf4"
+=======
+          "current_key": "AIzaSyCZfhJj6lJkU5oE0milohnscWjSl3TqDMc"
+>>>>>>> firebase_auth
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
+<<<<<<< HEAD
               "client_id": "849777838123-f2abmqa1qk9210pamsmnntso7tourf1b.apps.googleusercontent.com",
+=======
+              "client_id": "671357348761-g7llvkhbnj0jsacfe819j624i18q6h21.apps.googleusercontent.com",
+>>>>>>> firebase_auth
               "client_type": 3
             }
           ]
