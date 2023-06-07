@@ -29,12 +29,8 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
     Activity activity;
     Context context;
 
-
     FirebaseDatabase firebaseDatabase;
     DatabaseReference reference;
-
-
-
 
     public UserAdapter(List<String> userKeyList, Activity activity, Context context) {
         this.userKeyList = userKeyList;
@@ -43,12 +39,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
         firebaseDatabase=FirebaseDatabase.getInstance();
         reference=firebaseDatabase.getReference();
-
     }
-
-
-
-
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
@@ -57,7 +48,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
         return new ViewHolder(view);
     }
 
-    // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
 
@@ -98,7 +88,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
 
     }
 
-    // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
         return userKeyList.size();
@@ -112,9 +101,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
             super(view);
             username=view.findViewById(R.id.textViewListItemUserName);
             linearLayoutUser=view.findViewById(R.id.linearLayoutUserInfo);
-
-        }
-        public void setOnClick(){
 
         }
     }
