@@ -1,4 +1,4 @@
-package com.yildiztarik.stegochat;
+package com.yildiztarik.stegochat.Utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
