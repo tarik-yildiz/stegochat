@@ -36,7 +36,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
         this.userKeyList = userKeyList;
         this.activity = activity;
         this.context = context;
-
         firebaseDatabase=FirebaseDatabase.getInstance();
         reference=firebaseDatabase.getReference();
     }
@@ -101,7 +100,6 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
             super(view);
             username=view.findViewById(R.id.textViewListItemUserName);
             linearLayoutUser=view.findViewById(R.id.linearLayoutUserInfo);
-
         }
     }
 }
