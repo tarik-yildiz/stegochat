@@ -15,7 +15,6 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.yildiztarik.stegochat.R;
-import com.yildiztarik.stegochat.SignUpActivity;
 import com.yildiztarik.stegochat.Utils.ActivityManager;
 
 public class MainActivity extends AppCompatActivity {
