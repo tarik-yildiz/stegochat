@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/background_modern_withoutstroke"
+    tools:context=".Activities.MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -27,6 +28,32 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayoutSignInText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_background_grey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewLogo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="WELCOME TO SIGN IN"
+                android:textColor="#ffffff"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayoutUserName"
             android:layout_width="300dp"
             android:layout_height="55dp"
@@ -34,18 +61,19 @@
             android:background="@drawable/background_white_stroke_radius"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSignInText"
             tools:ignore="MissingConstraints">
 
             <EditText
-                android:id="@+id/editTextLUserNameLogin"
+                android:id="@+id/editTextLMailLogin"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@null"
-                android:digits="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:digits="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@."
                 android:gravity="center"
-                android:hint="USER NAME"
+                android:hint="MAIL ADDRESS"
                 android:inputType="text"
+                android:textColor="#000"
                 android:textColorHint="#000000" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -57,7 +85,6 @@
             android:layout_height="55dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/background_white_stroke_radius"
-
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/constraintLayoutUserName"
@@ -71,6 +98,7 @@
                 android:gravity="center"
                 android:hint="PASSWORD"
                 android:inputType="textPassword"
+                android:textColor="#000"
                 android:textColorHint="#000000" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -106,7 +134,6 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayoutSignInLogin"
-
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
@@ -131,5 +158,7 @@
                 tools:ignore="MissingConstraints" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
